@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-produto {
+    border: 1px solid;
+    height: 260px;
+    width: 560px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.imagem {
+    background-color: rgb(222, 222, 255);
+    flex: 1
+}
+
+.conteudo {
+    background-color: rgb(250, 198, 198);
+    display: flex;
+    padding: 0.8rem;
+    flex-direction: column;
+    flex: 2
+}
+
+.conteudo div {
+    border: 1px solid;
+}
+
+.titulo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tamanhos {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.botoes {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.observacao {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
